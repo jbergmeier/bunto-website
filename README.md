@@ -12,8 +12,7 @@ Reines HTML/CSS/JS, keine Build-Schritte, keine externen Ressourcen (kein Tracki
 | `Dockerfile`, `nginx.conf`, `docker-compose.yml` | Deployment |
 
 ## Vor dem Livegang
-Sobald die App live ist: den „Bald im App Store“-Button (`span.cta.soon` in `index.html` und `en/index.html`) durch einen Link
-`<a class="cta" href="https://apps.apple.com/…">` ersetzen.
+Der App-Store-Button (`a.cta` in `index.html` und `en/index.html`) verlinkt auf `https://apps.apple.com/app/id6836277407`; der Link funktioniert erst nach der Freigabe durch Apple. Erst dann pushen/deployen.
 
 ## Lokal testen
 ```bash
