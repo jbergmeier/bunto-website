@@ -1,0 +1,8 @@
+# Coolify: add as "Docker Compose" resource (Build Pack: Docker Compose).
+# Set the domain on the "web" service in Coolify – it handles TLS + proxy. No ports mapping needed.
+services:
+  web:
+    build: .
+    restart: unless-stopped
+    expose:
+      - "80"
