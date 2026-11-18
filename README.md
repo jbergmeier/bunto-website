@@ -11,9 +11,7 @@ Reines HTML/CSS/JS, keine Build-Schritte, keine externen Ressourcen (kein Tracki
 | `assets/` | CSS, JS, App-Icon, Screenshots (`assets/shots/{de,en}`) |
 | `Dockerfile`, `nginx.conf`, `docker-compose.yml` | Deployment |
 
-## Vor dem Livegang ausfüllen
-Gelb markierte Stellen (`class="todo"`) in `impressum.html`, `datenschutz.html`, `en/imprint.html`, `en/privacy.html`:
-Name/Anschrift/E-Mail und Hosting-Anbieter. Suche: `grep -rn 'class="todo"' .`
+## Vor dem Livegang
 Sobald die App live ist: den „Bald im App Store“-Button (`span.cta.soon` in `index.html` und `en/index.html`) durch einen Link
 `<a class="cta" href="https://apps.apple.com/…">` ersetzen.
 
