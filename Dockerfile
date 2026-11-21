@@ -1,4 +1,4 @@
-FROM nginx:1.27-alpine
+FROM nginx:1.31-alpine
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY index.html 404.html impressum.html datenschutz.html /usr/share/nginx/html/
 COPY en /usr/share/nginx/html/en
